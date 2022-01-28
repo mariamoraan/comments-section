@@ -1,0 +1,8 @@
+.comment-text{
+    color: var(--grayish-blue);
+}
+.mention{
+    position: relative;
+    color: var(--moderate-blue);
+    font-weight: 500;
+}

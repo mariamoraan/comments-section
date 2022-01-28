@@ -1,0 +1,19 @@
+.user-component{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.user-component > * {
+    margin-right: 8px;
+}
+.user-component-name{
+    font-weight: 500;
+    color: var(--dark-blue);
+}
+.you-tag{
+    padding: 0.25em 0.5em;
+    background: var(--moderate-blue);
+    color: white;
+    font-size: 0.8em;
+    font-weight: 500;
+}

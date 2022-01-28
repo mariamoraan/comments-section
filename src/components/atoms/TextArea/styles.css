@@ -1,0 +1,24 @@
+.button{
+    padding: 2ch 4ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background: var(--moderate-blue);
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: 500;
+    transition: 200ms ease-in-out;
+}
+.button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.delete{
+    background: var(--soft-red);
+}
+.cancel{
+    background: var(--dark-blue);
+}

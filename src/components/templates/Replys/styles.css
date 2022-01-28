@@ -1,0 +1,22 @@
+.replys{    
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-self: flex-end;
+    flex-direction: column;
+    border-left: 2px solid var(--light-gray);
+}
+.replys .comment-template{
+    width: 90%;
+}
+
+@media (max-width: 1000px){
+    .replys{
+        width: 100%;
+    }
+    .replys .comment{
+        margin-left: 20px;
+        width: auto;
+    }
+}

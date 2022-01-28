@@ -1,0 +1,24 @@
+.textarea{
+    padding: 25px;
+    width: calc(100% -50px);
+    resize: none;
+    outline: none;
+    border-radius: 16px;
+    border: 1px solid var(--light-grayish-blue);
+    color: var(--grayish-blue);
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+.textarea:focus,
+.textarea:hover{
+    border: 1px solid var(--moderate-blue);
+}
+
+
+@media (max-width: 1000px){
+    .textarea{
+        margin: 25px 0;
+        padding: 8px;
+        width: calc(100% - 16px);
+    }
+}

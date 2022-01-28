@@ -1,0 +1,44 @@
+.vote-button{
+    padding: 4px 8px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--very-light-gray);
+    color: var(--moderate-blue);
+    fill: var(--very-light-gray);
+    font-weight: 700;
+    border-radius: 16px;
+}
+.vote-button .vote-button-icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vote-button button{
+    background: none;
+    border: none;
+}
+.vote-button button svg {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    fill: var(--light-grayish-blue);
+    transition: 200ms ease-in-out;
+}
+.vote-button button svg:hover{
+    cursor: pointer;
+    fill: var(--moderate-blue);
+}
+
+@media (max-width: 1000px) {
+    .vote-button{
+        width: auto;
+        flex-direction: row;
+        padding: 0;
+    }
+}
